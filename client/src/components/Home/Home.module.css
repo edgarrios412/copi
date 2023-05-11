@@ -1,0 +1,78 @@
+.findMe{
+    margin: 11px 60px;
+    width: 64px;
+    height: 64px;
+    /* border: 0; */
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+}
+
+.viajes{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 90px;
+    margin-left: 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.128); */
+}
+
+.profile{
+    z-index: 2;
+    border-radius: 5px;
+    position: absolute;
+    margin: 11px 140px;
+    width: 220px;
+    height: 64px;
+    background-color: #329b66;
+}
+
+/* CARD */
+
+.iconCard{
+    padding: 10px 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* margin-top: 20px; */
+}
+.card{
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 1em;
+    font-weight: 600;
+    font-family: system-ui;
+    padding:0;
+    line-height: 10px;
+}
+.fromto{
+    font-family: system-ui;
+    font-size: .8em;
+    color: grey;
+    line-height: 0px;
+}
+.rating{
+    font-family: system-ui;
+    font-size: .8em;
+    line-height: 15px;
+    color: rgb(30, 30, 30);
+}
+
+.call{
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: #eefff6;
+    border: 3px solid #79d6a7;
+    cursor:pointer;
+    margin: 30px 30px;
+}
