@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./Landing.module.css"
 import Nav from "../Nav/Nav"
-import Banner from "../../assets/banner.avif"
+import Banner from "../../assets/img.png"
 import {MdLocationPin} from "react-icons/md"
 import { RxMagnifyingGlass } from "react-icons/rx"
 
