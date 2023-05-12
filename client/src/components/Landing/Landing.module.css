@@ -1,0 +1,112 @@
+.banner{
+    width: 35vw;
+    height: 35vw;
+    margin-top: 100px;
+    margin-left: 60px;
+    opacity: 0;
+    scale: .5;
+    z-index: -1;
+    animation: saltar 1s ease-in-out forwards;
+}
+
+@keyframes saltar{
+    70%{
+        scale:1.05;
+    }
+    100%{
+        scale:1;
+        opacity:1;
+    }
+}
+
+
+.subtitle{
+    opacity: 0;
+    animation: aparecer 1s ease-in-out forwards;
+}
+
+@keyframes aparecer{
+    100%{
+        opacity:1;
+    }
+}
+
+.titleBannerContainer{
+    /* background-color: red; */
+    height: fit-content;
+    margin-top: 160px;
+    margin-left: 150px;
+}
+
+.titleBanner{
+    font-size: 4em;
+    font-family: system-ui;
+    color: rgb(0, 0, 0);
+    line-height: 0;
+}
+
+.subtitleBanner{
+    font-family: system-ui;
+    font-size: 1.25em;
+    color:grey;
+    width: 500px;
+    height: 125px;
+    /* background-color: red; */
+    line-height: 30px;
+}
+
+.input{
+    /* padding:0px 10px 0px 20px; */
+    width: 170px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: system-ui;
+    border: 0;
+    padding: 0px 15px;
+    font-size: 1.4em;
+}
+
+.input:focus{
+    outline: 0;
+}
+
+.icon{
+    color: grey;
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+.iconLupa{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.view1{
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttonFind{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(220, 182, 255);
+    color:rgb(108, 23, 148);
+    font-size: 1.5em;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: .3s;
+    cursor:pointer;
+}
+.buttonFind:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.view2{
+    width: 100vw;
+    height: 100vh;
+    background-color: palevioletred;
+}
