@@ -1,6 +1,7 @@
 const express = require("express")
 const morgan = require("morgan")
 const cors = require("cors")
+require("dotenv").config()
 
 const app = express()
 
@@ -20,7 +21,7 @@ app.get("/send" , async (req,res) =>{
     secure: true, // true for 465, false for other ports
     auth: {
       user: "edgarrios412@gmail.com", // generated ethereal user
-      pass: "jejntqqvrabnfhan", // generated ethereal password
+      pass: process.env.GoogleAPI, // generated ethereal password
     },
   });
 
