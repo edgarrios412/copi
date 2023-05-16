@@ -1,0 +1,169 @@
+.login{
+    display: flex;
+    justify-content:space-evenly;
+    /* margin-top: 150px; */
+    background-color: #e6f3fc;
+}
+
+
+.banners{
+    margin-top: 100px;
+    opacity:0;
+    animation: aparecer .5s .2s ease-in-out forwards;
+    width: 600px;
+}
+
+@keyframes aparecer{
+    100%{
+        opacity:1;
+    }
+}
+
+.loginContainer{
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    height: 100vh;
+    /* border-top-left-radius: 20px; */
+    box-shadow: 0px 0px 10px 5px rgba(124, 123, 123, 0.226);
+}
+
+.title{
+    text-align: center;
+    color: rgb(28, 28, 28);
+    margin-bottom: 60px;
+    margin-top: 40px;
+    /* background-color: red; */
+    width: 60%;
+    margin-left: 20%;
+}
+
+.form{
+    margin-left: 80px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    border-radius: 3px;
+    border: 1px solid rgb(171, 155, 179);
+    padding: 0px 15px;
+}
+
+.input:focus{
+    outline: 1px solid rgb(119, 26, 156)
+}
+
+.labelForm{
+    color: rgb(93, 79, 104);
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.checkForm{
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+
+.checkbox{
+    width: 17px;
+    height: 17px;
+}
+
+.session{
+    font-size: .8em;
+    font-weight: 400;
+    color:grey
+}
+
+.input[type="checkbox"]{
+    font-size: 2em;
+}
+
+.forgot{
+    margin-top: 10px;
+    font-size: .8em;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(119, 26, 156);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.forgot:hover{
+    color: rgb(119, 26, 156);
+}
+
+.buttonLogin{
+    cursor:pointer;
+    height: 40px;
+    border: 0;
+    margin-top: 30px;
+    background-color: rgb(119, 26, 156);
+    color:white;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.registerTotal{
+    margin-top: 40px;
+    font-size: .85em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.register{
+    margin-left:5px;
+    color:rgb(119, 26, 156);
+}
+
+/* VERIFIED */
+
+.titleVerified{
+    text-align: center;
+    color: rgb(28, 28, 28);
+    /* margin-bottom: 60px; */
+    margin-top: 120px;
+    /* background-color: red; */
+    width: 60%;
+    margin-left: 20%;
+}
+
+.emailIcon{
+    text-align: center;
+    font-size: 2em;
+    color:blueviolet
+}
+
+.descVerified{
+    /* line-height: 0; */
+    color: rgb(87, 87, 87);
+    font-weight: 400;
+    font-size: .85em;
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.formVerified{
+    margin-left: 80px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.buttonVerified{
+    cursor:pointer;
+    height: 40px;
+    border: 0;
+    /* margin-top: 0px; */
+    background-color: rgb(119, 26, 156);
+    color:white;
+    border-radius: 3px;
+    font-weight: 600;
+}

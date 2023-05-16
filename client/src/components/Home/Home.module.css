@@ -50,18 +50,15 @@
 .name{
     font-size: 1em;
     font-weight: 600;
-    font-family: system-ui;
     padding:0;
     line-height: 10px;
 }
 .fromto{
-    font-family: system-ui;
     font-size: .8em;
     color: grey;
     line-height: 0px;
 }
 .rating{
-    font-family: system-ui;
     font-size: .8em;
     line-height: 15px;
     color: rgb(30, 30, 30);
