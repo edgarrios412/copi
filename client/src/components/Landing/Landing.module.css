@@ -343,3 +343,42 @@
     color: white;
     background-color: rgb(19, 19, 19);
 }
+
+/* PAYMENTS */
+
+.paymentsContainer{
+    padding: 65px 0px 125px 75px;
+    display: flex;
+    align-items: center;
+}
+
+.payments{
+    margin-left: 50px;
+}
+
+.method{
+    height: 300px;
+}
+
+.titlePay{
+    font-size: 2em;
+}
+
+.subtitlePay{
+    color: grey;
+    font-weight: 400;
+    width: 350px;
+}
+
+.iconsPay{
+    /* background-color: red; */
+}
+
+.iconPay{
+    width: 70px;
+    margin-right: 50px;
+}
+
+.iconPay:last-child{
+    width: 50px;
+}

@@ -11,6 +11,9 @@ import { RxMagnifyingGlass } from "react-icons/rx";
 import Search from "../../assets/search.png";
 import Chat from "../../assets/chat.png";
 import Car from "../../assets/car.png";
+import Pago from "../../assets/pay.png";
+import Nequi from "../../assets/nequi.png";
+import Daviplata from "../../assets/daviplata.png";
 
 const Landing = () => {
   const [subtitle, setSubtitle] = useState(0);
@@ -203,6 +206,17 @@ const Landing = () => {
               nuestros consejos para saber cómo garantizar tu seguridad.
             </h3>
             <button className={style.buttonSecurity}>Más información</button>
+          </div>
+        </div>
+        <div className={style.paymentsContainer}>
+          <img className={style.method} src={Pago}/>
+          <div className={style.payments}>
+            <h2 className={style.titlePay}>Metodos de pago</h2>
+            <h4 className={style.subtitlePay}>Todos nuestros conductores aceptan pago por <b>Nequi</b> y <b>Daviplata</b>, es requisito de nuestra plataforma</h4>
+            <div className={style.iconsPay}>
+              <img className={style.iconPay} src={Daviplata}/>
+              <img className={style.iconPay} src={Nequi}/>
+            </div>
           </div>
         </div>
       </div>
