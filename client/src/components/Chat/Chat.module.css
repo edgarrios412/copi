@@ -1,3 +1,50 @@
+.chat{
+    padding-top: 80px;
+    margin: 0px auto;
+    /* background-color: red; */
+    width: 600px;
+}
+
+.chatHeader{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.chatMsg{
+    width: 600px;
+    background-color: rgb(238, 238, 238);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    overflow-y: scroll;
+}
+
+.msgEl{
+    font-size: .9em;
+    max-width: 300px;
+    margin: 5px 0px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.msgYo{
+    font-size: .9em;
+    margin: 5px 0px;
+    margin-right: 20px;
+    background-color: rgb(48, 77, 170);
+    color:white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    align-self: flex-end;
+    max-width: 300px;
+}
+
 .userProfile{
     width: 60px;
     height: 60px;
@@ -5,18 +52,20 @@
     margin-left: 25px;
 }
 
-.chatHeader{
-    /* padding-top: 100px; */
+.el{
     display: flex;
-    gap: 20px;
-    align-items: center;
 }
 
-.chat{
-    margin: 20px auto;
-    /* background-color: red; */
-    width: 600px;
+.userProfileChat{
+    /* position: absolute; */
+    /* margin-top: 100px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
 }
+
 .dataUser{
     width: 400px;
 }

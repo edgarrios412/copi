@@ -128,7 +128,7 @@
 
 .view2{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
 }
 
 .why{
@@ -231,32 +231,96 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    align-items: center;
 }
 
 .titleView2{
-      font-size: 2.5em;
+      font-size: 2em;
 }
 
 .subtitleView2{
     color: rgb(99, 99, 99);
       font-weight: 400;
+      font-size: .9em;
+      width:500px;
+      line-height: 25px;
 }
 
-.soyConductor{
+.buttonNew{
     border: 0;
-      font-size: 1.5em;
-    padding: 6px 30px;
+      font-size: 1.1em;
+      font-weight: 600;
+    padding: 8px 30px;
     border-radius: 2px;
     background-color: rgb(220, 182, 255);
     color:rgb(108, 23, 148);
     cursor:pointer;
+    border-radius: 5px;
+    transition: .3s;
 }
 
-/* Footer */
+.buttonNew:hover{
+    color: white;
+    background-color: blueviolet;
+}
 
-.footer{
-    margin-top: 100px;
-    background-color: rgb(114, 114, 114);
-    height: 20vh;
+.benefitsContainer{
+    width: 1200px;
+    /* background-color: red; */
+    margin: 0px auto;
+    padding-bottom: 100px;
+}
+
+/* VIEW 3 */
+
+.view3{
     width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(169, 75, 212); */
+}
+
+.securityContainer{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    background-color: #ac6ce8;
+}
+
+.imgSecurity{
+    width: 500px;
+    margin-left: -100px;
+}
+
+.titleSecurity{
+    margin-top: 60px;
+    font-size: 1.7em;
+    color: white;
+    font-weight: 600;
+    width: 500px;
+}
+
+.subtitleSecurity{
+    width: 500px;
+    font-size: .95em;
+    color: white;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.buttonSecurity{
+    border: 0;
+      font-size: 1.1em;
+      font-weight: 600;
+    padding: 8px 30px;
+    border-radius: 2px;
+    background-color: rgb(220, 182, 255);
+    color:rgb(108, 23, 148);
+    cursor:pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.buttonSecurity:hover{
+    color: white;
+    background-color: rgb(19, 19, 19);
 }

@@ -48,31 +48,14 @@ function Home() {
   }
   return (
     <div>
-      <button className={style.findMe} onClick={() => mapRef.current.flyTo(coord, 16)}>Donde estoy</button>
-      <div className={style.profile}></div>
-      <div className={style.viajes}>
-        {travels.map((t,i) => {
-          return(
-            <div className={style.card} onClick={() => mapRef.current.flyTo(t, 16)}>
-            <img className={style.iconCard} src="https://static.vecteezy.com/system/resources/previews/006/247/671/non_2x/trendy-unique-isometric-style-icon-of-car-vector.jpg"/>
-            <div>
-              <p className={style.name}>Edgar Vilchez</p>
-              <p className={style.fromto}>Zipaquirá - Bogotá</p>
-              <p className={style.rating}>estrellas</p>
-              </div>
-            <button className={style.call} onClick={() => alert("Llamando...")}>Llamar</button>
-            {/* <button>Chat</button> */}
-            </div>
-          )
-        })}
-      </div>
-    <div style={{ height: "100vh", width: "100vw"}}>
+      {/* <button className={style.findMe} onClick={() => mapRef.current.flyTo(coord, 16)}>Donde estoy</button> */}
+    <div className={style.mapContainer}>
       <MapContainer
         ref={mapRef}
         center={coord}
         zoom={zoom}
         scrollWheelZoom={false}
-        style={{ width: "100vw", height: "100vh", zIndex:1}}
+        className={style.map}
       >
         <TileLayer url={MAP_LAYER_URL} attribution={MAP_LAYER_ATTRIBUTION}/>
         <Marker draggable={true} position={[5.0267284, -74.0093039]} icon={myIcon}>

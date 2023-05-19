@@ -14,12 +14,12 @@ const Nav = () => {
     <>
       <nav className={style.nav} onClick={() => setIsLogged(!isLogged)}>
         <div className={style.divisor}>
-            <img className={style.logo} src={logo}></img>
+            <Link to="/"><img className={style.logo} src={logo}/></Link>
             <b className={style.city} onClick={() => setModal(true)}><MdLocationPin className={style.icon}/> Bogotá</b>
             <div className={style.login}>
             {isLogged ?<>
             <img src={yo} className={style.userProfileIcon}/>
-            <Link to="/login" style={{textDecoration:"none"}}>
+            <Link to="/inbox" style={{textDecoration:"none"}}>
             <b className={style.ingresar} style={{marginLeft:"5px"}}>Edgar</b>
             </Link>
           </>:<>

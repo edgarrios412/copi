@@ -11,7 +11,7 @@ const Inbox = () => {
     <div style={{width:"100vw",height:"100vh"}}>
     <Nav/>
     <div className={style.inbox}>
-      <h3 className={style.titleSection}>Bandeja de entrada</h3>
+      {!chatId && <h3 className={style.titleSection}>Bandeja de entrada</h3>}
       {chatId == null ? <div className={style.inboxContainer}>
         <div className={style.mensajeContainer} onClick={() => setChatId(1)}>
             <img src={yo} className={style.userProfile}></img>
