@@ -124,18 +124,31 @@ const Landing = () => {
         <div className={style.why}>
           <div className={style.steps}>
             <div className={style.step}>
-              <img src={}/>
-              {/* <p style={{textAlign:"center", color:"white"}}><GrMapLocation className={style.iconStep}/></p> */}
+              <div className={style.stepHeader}>
+              <img className={style.iconStep} src={Search}/>
+              <b className={style.titleStep}>Selecciona a donde ir</b>
+              </div>
+              <div className={style.descriptionStep}>
+                Busca la ruta a donde desees ir y selecciona la opción que más te convenga
+              </div>
             </div>
             <div className={style.step}>
-              {/* <p style={{textAlign:"center"}}><RxMagnifyingGlass className={style.iconStep}/></p> */}
+            <div className={style.stepHeader}>
+              <img className={style.iconStep} src={Chat}/>
+              <b className={style.titleStep}>Escribele al conductor</b>
+              </div>
+              <div className={style.descriptionStep}>
+                Ponte en contacto con el conductor para acordar un lugar de encuentro
+              </div>
             </div>
             <div className={style.step}>
-              {/* <p style={{textAlign:"center"}}><MdOutlineTextsms className={style.iconStep}/></p> */}
-              {/* <p className={style.descriptionStep}>Contacta con tu match y llega a un acuerdo para acordar el lugar de encuentro</p> */}
-            </div>
-            <div className={style.step}>
-              {/* <p style={{textAlign:"center"}}><AiOutlineCar className={style.iconStep}/></p> */}
+            <div className={style.stepHeader}>
+              <img className={style.iconStepCar} src={Car}/>
+              <b className={style.titleStep}>Un conductor te recogerá</b>
+              </div>
+            <div className={style.descriptionStep}>
+                Ya solo queda esperar que uno de nuestros conductores vaya por ti al lugar acordado {":)"}
+              </div>
             </div>
           </div>
         </div>
