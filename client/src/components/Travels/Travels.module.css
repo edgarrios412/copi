@@ -1,0 +1,6 @@
+.view{
+    background-color: rgb(242, 241, 241);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}

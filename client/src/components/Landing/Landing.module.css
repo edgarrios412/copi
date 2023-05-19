@@ -6,7 +6,7 @@
     opacity: 0;
     scale: .5;
     z-index: -1;
-    animation: saltar 1s ease-in-out forwards;
+    animation: saltar 1s .5s ease-in-out forwards;
 }
 
 @keyframes saltar{
@@ -104,6 +104,7 @@
 .view1{
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 .buttonFind{

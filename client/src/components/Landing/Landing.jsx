@@ -49,7 +49,7 @@ const Landing = () => {
     <>
       <Nav/>
       <button className={style.support}><MdSupportAgent className={style.iconSupport}/></button>
-      <div className={style.view1} style={{display:"flex"}}>
+      <div className={style.view1}>
       <img className={style.banner} src={Banner}/>
         <div className={style.titleBannerContainer}>
           {subtitle == 1 && <div className={style.subtitle}>

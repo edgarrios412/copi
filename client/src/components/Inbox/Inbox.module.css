@@ -1,0 +1,63 @@
+.inbox{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+}
+.titleSection{
+    /* position: absolute; */
+    /* display: flex; */
+    /* margin-top: 100px; */
+    text-align: center;
+    margin: 0;
+    padding-top: 80px;
+    font-size: 2em;
+    color: purple;
+}
+
+.inboxContainer{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 40px auto;
+    gap:20px;
+}
+
+.mensajeContainer{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    border-radius: 20px;
+    transition: .3s;
+    cursor:pointer;
+    padding: 5px 15px;
+}
+
+.mensajeContainer:hover{
+    background-color: rgba(197, 197, 197, 0.396);
+}
+
+.userProfile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.userName{
+    margin-left: 20px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.msg{
+    margin-left: 20px;
+    line-height: 10px;
+    color: rgb(83, 83, 83);
+    font-size: .9em;
+    width: 550px;
+}
+
+.openMsg{
+    font-size: 1.5em;
+    color:grey;
+}

@@ -1,0 +1,113 @@
+.card{
+    width: 400px;
+    height: 190px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    /* margin-top: 200px; */
+    box-shadow: 0px 0px 10px 5px rgba(161, 161, 161, 0.172);
+    transition: .3s;
+    cursor:pointer;
+    border: 1px solid rgb(222, 222, 222);
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px 5px rgba(69, 69, 69, 0.24);
+    scale: 1.03;
+}
+
+.cardTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cardBottom{
+    display: flex;
+    margin-top: -10px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.li{
+    list-style: none;
+    display: flex;
+}
+
+.price{
+    font-weight: 600;
+}
+
+.dataUser{
+    margin-top: 10px;
+    line-height: 0px;
+    margin-left: 20px;
+    /* background-color: red; */
+}
+
+.divisor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ciudad{
+    margin-top: -2px;
+    color:rgb(65, 65, 65);
+    font-weight: 400;
+}
+
+.bolita{
+    margin: 0px 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(138, 78, 168);
+}
+
+
+.rayita{
+    height: 40px;
+    width: 4px;
+    background-color: rgb(138, 78, 168);
+}
+
+.horaContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tiempoViaje{
+    color: rgb(160, 160, 160);
+    font-size: .9em;
+    font-weight: 600;
+}
+
+.imgUser{
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hora{
+    /* background-color: red; */
+    width: 50px;
+    margin-top: -2px;
+}
+
+.starIcon{
+    font-size: 1.3em;
+}
+
+.calification{
+    color: grey;
+    gap:5px;
+    display: flex;
+    align-items: center;
+}
+
+.nameUser{
+    font-weight: 600;
+}
