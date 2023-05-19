@@ -1,0 +1,166 @@
+.nav{
+    background-color: rgba(250, 250, 250, 0.878);
+    position: fixed;
+    /* display: block; */
+    width: 100vw;
+    height: 10vh;
+    margin:0;
+    z-index: 50;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.icon{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 0px;
+    font-size: 1.4em;
+}
+
+.city{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 160px;
+    padding: 10px 40px;
+    font-size: .9em;
+    height: fit-content;
+    color: rgb(119, 43, 226);
+    border-left: 2px solid rgba(184, 184, 184, 0.245);
+    transition: .2s;
+}
+
+.city:hover{
+    color: rgb(69, 8, 110);
+}
+
+.divisor{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    max-height: 11.5vh;
+}
+
+.logo{
+    width: 60px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 5px;
+    /* padding: 10px; */
+    /* letter-spacing: 2px; */
+}
+
+.login{
+    margin-top: 13px;
+    margin-right: 60px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    /* color:red; */
+    /* background-color: red; */
+    width:120px
+}
+
+.login:hover .ingresar, 
+.login:hover .userIcon{
+    color:blueviolet;
+    cursor:pointer;
+}
+
+.ingresar{
+    color: rgb(79, 79, 79);
+    font-weight: 400;
+    transition: .2s;
+}
+
+.userIcon{
+    font-size: 2.3em;
+    color:rgb(79, 79, 79);
+    transition: .2s;
+    border-radius: 50%;
+}
+.userProfileIcon{
+    /* font-size: 2.3em; */
+    color:rgb(79, 79, 79);
+    transition: .2s;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+/* MODAL */
+
+.modalContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.429);
+    z-index: 100;
+}
+
+.modal{
+    z-index: 200;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left:50%;
+    margin-top: 100px;
+    transform: translateX(-50%);
+}
+
+.question{
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    padding: 0 40px;
+    font-weight: 400;
+    color: rgb(93, 93, 93);
+    font-size: .9em;
+    margin-bottom: 30px;
+}
+
+.select{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.autolocation{
+    text-align: center;
+    font-size: .75em;
+    font-weight: bold;
+    color: blueviolet;
+    cursor:pointer
+}
+
+.imgLocation{
+    width: 150px;
+}
+
+@media screen and (max-width:750px){
+    .li{
+        display:none;
+    }
+    .li:last-child{
+        display: block;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .city{
+        margin-left: 100px;
+    }
+}
