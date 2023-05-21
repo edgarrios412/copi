@@ -2,7 +2,6 @@
     padding: 100px 0px;
     margin: 0px auto;
     width:600px;
-    background-color: aquamarine;
 }
 
 .profileUser{
@@ -36,4 +35,18 @@
 .reviews{
     color: rgb(34, 34, 34);
     font-weight: 600;
+    transition: .3s;
+    padding: 20px;
+}
+
+.reviews:hover{
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+}
+
+.hability{
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+    transition: .3s;
+    padding: 0px 20px;
 }

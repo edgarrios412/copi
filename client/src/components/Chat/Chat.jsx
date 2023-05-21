@@ -3,6 +3,7 @@ import yo from "../../assets/fotoPerfil.png";
 import { FiSettings } from "react-icons/fi";
 import { useEffect, useRef, useState } from "react";
 import { Element, scroller } from 'react-scroll';
+import {Link} from "react-router-dom"
 
 
 const Chat = () => {
