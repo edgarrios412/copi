@@ -9,11 +9,12 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .chatMsg{
     width: 600px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(249, 249, 249);
     height: 400px;
     display: flex;
     flex-direction: column;

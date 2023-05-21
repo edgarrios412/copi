@@ -5,6 +5,7 @@ const CardDetail = () => {
   return(
     <>
       <Nav/>
+      <h1>Soy un viaje</h1>
     </>
   )
 };

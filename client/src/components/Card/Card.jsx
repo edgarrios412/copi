@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 const Card = () => {
   return(
-    // <Link to="/detail">
+      <Link to="/detail">
       <div className={style.card}>
         <div className={style.cardTop}>
         <div className={style.cardTopLeft}>
@@ -40,7 +40,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-      // {/*</Link> */}
+      </Link>
   )
 };
 

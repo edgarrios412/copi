@@ -1,10 +1,22 @@
 import style from "./Chat.module.css";
 import yo from "../../assets/fotoPerfil.png";
 import { FiSettings } from "react-icons/fi";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { Element, scroller } from 'react-scroll';
+
 
 const Chat = () => {
   const [status, setStatus] = useState(true);
+  
+  useEffect(() => {
+    scroller.scrollTo('messages', {
+      duration: 0,
+      delay: 0,
+      smooth: 'linear',
+      containerId: 'messages-container' // Reemplaza 'messages-container' con el ID o nombre de tu contenedor
+    });
+  },[])
+
   return (
     <div className={style.chat}>
       <div className={style.chatHeader}>
@@ -31,7 +43,7 @@ const Chat = () => {
           <FiSettings />
         </p>
       </div>
-      <div className={style.chatMsg}>
+      <Element className={style.chatMsg} id="messages-container">
         <div className={style.msgYo}>
           Hola como estás? Estuve viendo tus publicaciones y vi que llevabas
           gente gratis hasta donde quisieran, queria saber mas info
@@ -48,7 +60,20 @@ const Chat = () => {
         </div>
         <div className={style.msgYo}>Todo bien gracias</div>
         <div className={style.msgYo}>¿Cual es tu ruta?</div>
-      </div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>Todo bien gracias</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>Todo bien gracias</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <div className={style.msgYo}>¿Cual es tu ruta?</div>
+        <Element name="messages" className={style.msgYo}>¿Cual es tu ruta?</Element>
+      </Element>
     </div>
   );
 };
