@@ -1,10 +1,11 @@
 import style from "./Card.module.css"
 import {HiStar} from "react-icons/hi"
 import {Link} from "react-router-dom"
+import styleLink from "../styleLink.module.css"
 
 const Card = () => {
   return(
-      <Link to="/detail">
+      <Link className={styleLink.none} to="/detail">
       <div className={style.card}>
         <div className={style.cardTop}>
         <div className={style.cardTopLeft}>

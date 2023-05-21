@@ -1,0 +1,39 @@
+.profileContainer{
+    padding: 100px 0px;
+    margin: 0px auto;
+    width:600px;
+    background-color: aquamarine;
+}
+
+.profileUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconUser{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.userName{
+    line-height: 0;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.userAge{
+    line-height: 0;
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+}
+
+.experience{
+    color: rgb(66, 66, 66);
+    padding: 10px 0px;
+}
+
+.reviews{
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+}

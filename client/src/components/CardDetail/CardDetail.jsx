@@ -5,7 +5,12 @@ const CardDetail = () => {
   return(
     <>
       <Nav/>
-      <h1>Soy un viaje</h1>
+      <div className={style.detailContainer}>
+        <div className={style.origenDestino}>
+
+        </div>
+        <div></div>
+      </div>
     </>
   )
 };

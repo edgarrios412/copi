@@ -20,7 +20,7 @@ const Chat = () => {
   return (
     <div className={style.chat}>
       <div className={style.chatHeader}>
-        <img src={yo} className={style.userProfile} />
+        <Link to="/profile"><img src={yo} className={style.userProfile} /></Link>
         <div className={style.dataUser}>
           <p className={style.userName}>Edgar Vilchez</p>
           {status ? (
